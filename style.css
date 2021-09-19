@@ -2,20 +2,26 @@
 
 body{
   background: #FFD700;
-  padding: 0px;
-  margins: 0px;
+  border: 5px solid Black;
+  padding: 15px;
+  margins: 15px;
 }
 h1 {
   color: Black;
   font-family: 'Diplomata', regular 400;
   font-size:  60px;
 }
-.Bumblebee{
-  text-decoration: underline;
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-
 p{
-  padding: 32px;
+  border: 3px dashed black;
+  padding: 10px;
+  text-align: center;
   display: inline;
 }
